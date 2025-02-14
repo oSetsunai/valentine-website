@@ -151,3 +151,24 @@ footer {
     0%, 100% { transform: translateY(0) rotate(0deg); }
     50% { transform: translateY(-20px) rotate(10deg); }
 }
+
+
+@media (max-width: 600px) {
+    #message {
+        font-size: 1.5rem; 
+    }
+
+    .btn-container {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    button {
+        width: 100%; 
+        font-size: 1rem; 
+    }
+
+    footer {
+        font-size: 0.9rem; 
+    }
+}
